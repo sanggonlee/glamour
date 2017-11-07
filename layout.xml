@@ -1,0 +1,19 @@
+<Root foo="iamfoo">
+
+  <NavBar>
+    <ProfileLink></ProfileLink>
+  </NavBar>
+
+  <Browse>
+    <SearchBar></SearchBar>
+
+    <Posts repeat="posts">
+      <Repeat>
+        <PostCard></PostCard>
+      </Repeat>
+    </Posts>
+
+    <Profile route="profile">
+    </Profile>
+  </Browse>
+</Root>

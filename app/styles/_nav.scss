@@ -1,0 +1,33 @@
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+
+  * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #c8e1ef;
+    border-radius: 6px;
+    border: solid 2px white;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    height: 100%;
+    flex: 1 0;
+    justify-content: flex-start;
+  }
+
+  .chat {
+    height: 100%;
+    flex: 0 0 120px;
+  }
+
+  .profile {
+    height: 100%;
+    flex: 0 0 120px;
+  }
+}
