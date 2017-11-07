@@ -1,3 +1,3 @@
-## ES6 Tutorial
-
-Start the tutorial [here](http://ccoenraets.github.io/es6-tutorial).
+## Steps to run
+1. Run `npm install`
+2. Run `gulp`
